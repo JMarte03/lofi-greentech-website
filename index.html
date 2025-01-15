@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Lofi</title>
+  </head>
+  <body>
+    <main class="bg-greyishGreen min-h-screen w-full p-3 flex items-stretch">
+        <section id="hero" class="relative w-full flex flex-col rounded-lg px-10 py-8 lg:px-24 space-y-20" style="background-image: url('img/hero-section-bg.jpg');">
+            <!-- NAV -->
+             <nav class="container">
+                 <div class="navbar">
+                     <div class="navbar-start">
+                       <img src="img/lofi-logo.svg" class="w-20 h-20" alt="">
+                     </div>
+                     <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal bg-white bg-opacity-20 rounded-xl text-white">
+                         <li class="hover:bg-white hover:text-black rounded-xl"><a>Service</a></li>
+                         <li class="hover:bg-white hover:text-black rounded-xl"><a>Why Us</a></li>
+                         <li class="hover:bg-white hover:text-black rounded-xl"><a>Testimonial</a></li>
+                         <li class="hover:bg-white hover:text-black rounded-xl"><a>About</a></li>
+                        </ul>
+                     </div>
+                     <div class="navbar-end">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                              <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-5 w-5"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="white">
+                                <path
+                                  stroke-linecap="round"
+                                  stroke-linejoin="round"
+                                  stroke-width="2"
+                                  d="M4 6h16M4 12h8m-8 6h16" />
+                              </svg>
+                            </div>
+                            <ul
+                              tabindex="0"
+                              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                              <li><a>Item 1</a></li>
+                              <li><a>Item 2</a></li>
+                              <li><a>Item 3</a></li>
+                            </ul>
+                          </div>
+                     </div>
+                 </div>
+             </nav>
+            <!-- CONTENT -->
+             <section class="flex flex-col space-y-28 lg:space-y-56">
+                <!-- Title -->
+                 <div class="container text-center text-white md:text-left">
+                    <h1 class="pb-8 text-5xl border-b-2 border-white mx-auto md:mx-0 lg:text-7xl md:w-4/6">We spent one-third of our life at work.</h1>
+                    <p class="text-2xl pt-8">See the world through the prism of design</p>
+                 </div>
+                <!-- Stats -->
+                <div class="stats stats-vertical bg-white text-center md:text-lef rounded-lg min-w-fit md:absolute md:stats-horizontal md:bottom-10 lg:bottom-0 lg:right-0">
+                    <div class="stat p-16">
+                      <div class="stat-value">20+</div>
+                      <div class="stat-desc">Total Project</div>
+                    </div>
+                  
+                    <div class="stat p-16">
+                      <div class="stat-value">4.8</div>
+                      <div class="stat-desc">Emission Saved</div>
+                    </div>
+                  
+                    <div class="stat p-16">
+                      <div class="stat-value">60+</div>
+                      <div class="stat-desc">Strategic Partner</div>
+                    </div>
+                </div>
+             </section>
+
+        </section>
+    </main>
+
+
+    <div class="card card-compact bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img
+            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Shoes!</h2>
+          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
