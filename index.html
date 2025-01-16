@@ -8,7 +8,7 @@
   </head>
   <body>
     <main class="bg-greyishGreen min-h-screen w-full p-3 flex items-stretch">
-        <section id="hero" class="relative w-full flex flex-col rounded-lg px-10 py-8 lg:px-24 space-y-20" style="background-image: url('img/hero-section-bg.jpg');">
+        <section id="hero" class="relative w-full flex flex-col rounded-lg px-10 py-8 lg:px-24 space-y-20">
             <!-- NAV -->
              <nav class="container">
                  <div class="navbar">
@@ -58,41 +58,119 @@
                     <p class="text-2xl pt-8">See the world through the prism of design</p>
                  </div>
                 <!-- Stats -->
-                <div class="stats stats-vertical bg-white text-center md:text-lef rounded-lg min-w-fit md:absolute md:stats-horizontal md:bottom-10 lg:bottom-0 lg:right-0">
-                    <div class="stat p-16">
-                      <div class="stat-value">20+</div>
-                      <div class="stat-desc">Total Project</div>
+                <div class="stats stats-vertical bg-white bg-opacity-80 text-center md:text-lef rounded-lg min-w-fit md:absolute md:stats-horizontal md:bottom-10 lg:bottom-0 lg:right-0">
+                    <div class="stat p-16 space-y-5">
+                      <div class="stat-value text-darkGreen font-medium text-5xl">20+</div>
+                      <div class="stat-desc text-lightText">Total Project</div>
                     </div>
                   
-                    <div class="stat p-16">
-                      <div class="stat-value">4.8</div>
-                      <div class="stat-desc">Emission Saved</div>
+                    <div class="stat p-16 space-y-5">
+                      <div class="stat-value text-darkGreen font-medium text-5xl">4.8</div>
+                      <div class="stat-desc text-lightText">Emission Saved</div>
                     </div>
                   
-                    <div class="stat p-16">
-                      <div class="stat-value">60+</div>
-                      <div class="stat-desc">Strategic Partner</div>
+                    <div class="stat p-16 space-y-5">
+                      <div class="stat-value text-darkGreen font-medium text-5xl">60+</div>
+                      <div class="stat-desc text-lightText">Strategic Partner</div>
                     </div>
                 </div>
              </section>
 
         </section>
     </main>
+    <!-- PROJECTS -->
+    <section id="projects" class="bg-greyishGreen w-full px-10 lg:px-24">
+      <!-- Project 01 -->
+      <figure class="flex flex-col-reverse gap-16 py-16 border-b-2 border-lightGray lg:flex-row-reverse xl:items-center">
+        <img src="img/project1.png" class="rounded-lg min-w-96 lg:w-5/6 xl:w-auto" alt="Holly Water cabin">
+        <figcaption class="">
+          <h2 class="uppercase font-medium text-darkGreen text-md">Project 1</h2>
+          <h3 class="font-medium text-darkText my-4 text-4xl">Bespoke Projects</h3>
+          <span class="text-lightText text-lg">2023</span>
+          <p class="text-md my-12 leading-relaxed text-lightText">
+            Lofi is a green tech industrial investment company based
+            in Sweden, focusing on clean energy technology and industrial
+            innovation. We invest in various areas, including solar and 
+            wind parks.
+          </p>
+          <!-- Details of the project -->
+          <section class="flex flex-col gap-5 lg:flex-row">
+            <div class="pb-6 border-b-2 border-t-lightGray lg:border-b-0 lg:pb-0 lg:pr-10 lg:border-r-2">
+              <h4 class="text-lightText mb-2">Location</h4>
+              <span class="text-darkText">Dartmoor, Devon</span>
+            </div>
+            <div class="pb-6 border-b-2 border-t-lightGray lg:border-b-0 lg:pb-0 lg:pr-10 lg:border-r-2">
+              <h4 class="text-lightText mb-2">Size</h4>
+              <span class="text-darkText">28m<sup>2</sup></span>
+            </div>
+            <div>
+              <h4 class="text-lightText mb-2">Materials</h4>
+              <span class="text-darkText">Oak, Ash, Copper</span>
+            </div>
+          </section>
+        </figcaption>
+      </figure>
+      <!-- Project 02 -->
+      <figure class="flex flex-col-reverse gap-16 py-16 border-b-2 border-lightGray lg:flex-row-reverse xl:items-center">
+        <img src="img/project2.png" class="rounded-lg min-w-96 lg:w-5/6 xl:w-auto" alt="Holly Water cabin">
+        <figcaption class="">
+          <h2 class="uppercase font-medium text-darkGreen text-md">Project 2</h2>
+          <h3 class="font-medium text-darkText my-4 text-4xl">Holly Water</h3>
+          <span class="text-lightText text-lg">2023</span>
+          <p class="text-md my-12 leading-relaxed text-lightText">
+            Lofi is a green tech industrial investment company based
+            in Sweden, focusing on clean energy technology and industrial
+            innovation. We invest in various areas, including solar and 
+            wind parks.
+          </p>
+          <!-- Details of the project -->
+          <section class="flex flex-col gap-5 lg:flex-row">
+            <div class="pb-6 border-b-2 border-t-lightGray lg:border-b-0 lg:pb-0 lg:pr-10 lg:border-r-2">
+              <h4 class="text-lightText mb-2">Location</h4>
+              <span class="text-darkText">Dartmoor, Devon</span>
+            </div>
+            <div class="pb-6 border-b-2 border-t-lightGray lg:border-b-0 lg:pb-0 lg:pr-10 lg:border-r-2">
+              <h4 class="text-lightText mb-2">Size</h4>
+              <span class="text-darkText">28m<sup>2</sup></span>
+            </div>
+            <div>
+              <h4 class="text-lightText mb-2">Materials</h4>
+              <span class="text-darkText">Oak, Ash, Wood fibre</span>
+            </div>
+          </section>
+        </figcaption>
+      </figure>
+      <!-- Project 03 -->
+      <figure class="flex flex-col-reverse gap-16 py-16 lg:flex-row-reverse xl:items-center">
+        <img src="img/project3.png" class="rounded-lg min-w-96 lg:w-5/6 xl:w-auto" alt="Holly Water cabin">
+        <figcaption class="">
+          <h2 class="uppercase font-medium text-darkGreen text-md">Project 3</h2>
+          <h3 class="font-medium text-darkText my-4 text-4xl">Oak Cabin</h3>
+          <span class="text-lightText text-lg">2023</span>
+          <p class="text-md my-12 leading-relaxed text-lightText">
+            Lofi is a green tech industrial investment company based
+            in Sweden, focusing on clean energy technology and industrial
+            innovation. We invest in various areas, including solar and 
+            wind parks.
+          </p>
+          <!-- Details of the project -->
+          <section class="flex flex-col gap-5 lg:flex-row">
+            <div class="pb-6 border-b-2 border-t-lightGray lg:border-b-0 lg:pb-0 lg:pr-10 lg:border-r-2">
+              <h4 class="text-lightText mb-2">Location</h4>
+              <span class="text-darkText">Dartmoor, Devon</span>
+            </div>
+            <div class="pb-6 border-b-2 border-t-lightGray lg:border-b-0 lg:pb-0 lg:pr-10 lg:border-r-2">
+              <h4 class="text-lightText mb-2">Size</h4>
+              <span class="text-darkText">28m<sup>2</sup></span>
+            </div>
+            <div>
+              <h4 class="text-lightText mb-2">Materials</h4>
+              <span class="text-darkText">Ash, Copper, Wood fibre</span>
+            </div>
+          </section>
+        </figcaption>
+      </figure>
+    </section>
 
-
-    <div class="card card-compact bg-base-100 w-96 shadow-xl">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Shoes" />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
-          </div>
-        </div>
-      </div>
   </body>
 </html>
