@@ -1,8 +1,12 @@
-### Lofi - Green Tech Industrial Investment Website
+# 🍃 Lofi - Green Tech Industrial Investment Landing Page
 
 This project is a practice website built during my journey to learn **Tailwind CSS**. It represents a fictional green tech industrial investment company called **Lofi**, focusing on sustainability and clean energy innovation. The design inspiration for this project came from [Dipainhouse](https://www.dipainhouse.com/), with all design credits belonging to them. 
 
 ![Crema y Gris Minimalista Producto Listado  Comercio Electrónico Presentación Video-min](https://github.com/user-attachments/assets/ebc5792a-2d70-4521-8d86-11993e659545)
+
+## 💻  How It's Made:
+
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
 
 #### Tech Stack
 - **HTML**
