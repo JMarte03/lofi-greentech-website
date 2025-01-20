@@ -10,20 +10,12 @@ The design inspiration for this project came from [Dipainhouse](https://www.dipa
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /> <img src="https://img.shields.io/badge/daisyUI-1ad1a5?style=for-the-badge&logo=daisyui&logoColor=white" />
 
-
-#### Tech Stack
-- **HTML**
-- **CSS**
-- **Tailwind CSS**
-- **DaisyUI**
-- **JavaScript**
-
 #### Key Features
-- **Responsive Design:** Built with Tailwind CSS, ensuring a seamless experience across different screen sizes.
-- **Reusable Components:** Used DaisyUI for pre-built components, saving development time.
-- **Interactive Elements:** Implemented navigation menus, stats display, and project showcases with basic JavaScript.
+- Responsive design
+- Reusable components
+- Interactive elements
 
-#### Lessons Learned
+## 🧠  Lessons Learned:
 1. **Efficiency with Tailwind CSS:**
    - Speeds up UI development with utility-first classes.
    - Makes implementing mobile-first and responsive design straightforward.
